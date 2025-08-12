@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func testReverse(t *testing.T) {
+func TestReverse(t *testing.T) {
 	testcases := []struct {
 		in, want string
 	}{
